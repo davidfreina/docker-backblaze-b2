@@ -2,7 +2,7 @@ FROM python:3.9-slim
 
 ENV AUTHORIZATION_FAIL_MAX_RETRIES=3
 
-RUN pip install b2==3.0.0
+RUN pip install b2==${VERSION}
 
 COPY src/entrypoint.sh /entrypoint.sh
 RUN chmod +x entrypoint.sh
