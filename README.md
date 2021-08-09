@@ -6,7 +6,7 @@ Docker image for the official Backblaze B2 command line tool ([Backblaze/B2_Comm
 
 ## Supported tags and respective `Dockerfile` links
 
--	[`2.5.0`, `latest` (*Dockerfile*)](https://github.com/sierra1011/docker-backblaze-b2/blob/master/Dockerfile)
+-	[`latest` (*Dockerfile*)](https://github.com/sierra1011/docker-backblaze-b2/blob/master/Dockerfile)
 
 ## How to use it
 
