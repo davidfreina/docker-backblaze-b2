@@ -13,7 +13,7 @@ EXIT_CODE=1
 AUTH_FAILED=1
 RETRY=0
 
-if [ -n "$B2_ACCOUNT_ID" ] && [ -n "$B2_APPLICATION_KEY" ]; then
+if [ -n "$B2_APPLICATION_KEY_ID" ] && [ -n "$B2_APPLICATION_KEY" ]; then
   while [ $AUTH_FAILED -ne 0 ] && [ $RETRY -lt $AUTHORIZATION_FAIL_MAX_RETRIES ]; do
     # Exclude on first run only if /root/.b2_account_info exists
     if [ $RETRY -gt 0 ] || [ ! -f /root/.b2_account_info ]; then
