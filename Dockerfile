@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:slim
 
 ENV AUTHORIZATION_FAIL_MAX_RETRIES=3
 
